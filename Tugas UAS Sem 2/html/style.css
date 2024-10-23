@@ -1,0 +1,50 @@
+@media (max-width: 770px) {
+    #menu-icons {
+        display: inline-block;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    nav ul {
+        position: absolute;
+        flex-direction: column;
+        column-gap: 0 0 0  0;
+        flex-wrap: wrap;
+        background-color: #fff;
+        width: 80%;
+        height: 100vh;
+        margin: 32px 0 0 0 ;
+        padding: 24px 0 0 4px;
+        transition: all 0.5s;
+    }
+
+    nav ul li a {
+        display: flex;
+        align-items: center;
+        padding: 0 50vh 0 30vh;
+        margin: 0;
+        height: 60px;
+     
+    }
+
+    nav ul li a:hover {
+        background-color: rgba(128, 128, 128, 0.356);
+        cursor: pointer;
+        transition: all 0.3s;
+        text-decoration: none;
+      
+
+
+    }
+}
+@media (max-width: 560px) {
+    nav ul li a {
+        display: flex;
+        align-items: center;
+        padding: 0 50vh 0 20vh;
+        margin: 0;
+        height: 60px
+    }
+}
