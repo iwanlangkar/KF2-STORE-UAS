@@ -1,2 +1,2 @@
-# KF2-STORE-UAS
+# KF2 STORE UAS
 Tugas Teknologi WEB 
